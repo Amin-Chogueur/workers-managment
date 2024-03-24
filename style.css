@@ -1,0 +1,209 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    color: white;
+    font-family: sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header {
+    background-color: rgb(5, 77, 79);
+    padding: 20px 0;
+}
+h1{
+    font-size: 50px;
+    margin-left: 50px;
+}
+h2{
+    margin: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.container{
+    width: 90%;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ header ul{
+    display: flex;
+    gap: 20px;
+ }
+ header p{
+    font-size: 18px;
+ }
+ header ul li a{
+    background-color:  darkolivegreen;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-transform: capitalize;
+ }
+/* start table */
+.table{
+    width: 100%;
+    margin: 30px 0 60px;
+    background-color: rgb(5, 77, 79);
+}
+
+.table .day,
+.table .tfoot,
+.table .thead,
+.table .tbody .info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid white;
+    text-transform: capitalize;
+}
+.table .tbody .info,
+.table .tbody .info button{
+    transition: 0.5s;
+}
+.table .tbody .info:hover{
+    background-color:  darkolivegreen;
+}
+.table .tbody .info:hover button{
+    background-color: rgb(5, 77, 79);
+}
+.table .thead p{
+    font-size: 25px;
+    background-color:  darkolivegreen
+}
+.table p{
+    flex: 1;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.table .tbody .info p:first-child{
+    position: relative;
+}
+.reset-data {
+    color: white;
+    border: none;
+    width: 150px;
+    display: block;
+    padding: 10px;
+    background-color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.see{
+    background-color:  darkolivegreen;
+    border: none;
+    padding: 5px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    border-radius: 5px;
+    transform: translateY(-50%);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+ table {
+    width: 100%;
+    border-spacing:0 ;
+    background-color: black;
+ }
+ .hidden{
+    display: none;
+ }
+ table tr td{
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-right: 100px;
+ }
+ table tr td.import{
+    padding: 0;
+ }
+ .versment{
+    padding-right: 0;
+ }
+ table tr td button{
+    position: absolute;
+    right: 10px;
+    padding: 5px;
+    border: none;
+    background-color:  darkolivegreen;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+ }
+ table tr td:first-child{
+    width: 23.2%;
+ }
+ 
+.special{
+    display: inline-block;
+    margin-left: 72px;
+    border-right: 2px solid white;
+    padding: 26px 81px;
+    border-left: 2px solid white;
+    width: 60.047px;
+    height: 21px;
+}
+.special-one{
+    display: inline-block;
+    padding: 26px;
+    border-left: 2px solid white;
+    margin-left: -87px;
+    padding-left: 81px;
+    padding-right: 4px;
+}
+ .delete,
+ #create,
+ .update,
+ .reset{
+    border:none;
+    background-color:  darkolivegreen;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 0 13px;
+    cursor: pointer;
+ }
+ button.done{
+    position: absolute;
+ }
+ .hidden{
+    display: none;
+ }
+ input{
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -90px;
+ }
+
+ 

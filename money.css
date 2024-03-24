@@ -1,0 +1,109 @@
+/* page money */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    color: white;
+    font-family: sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header {
+    background-color: rgb(5, 77, 79);
+    padding: 20px 0;
+}
+h2{
+    margin: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.container{
+    width: 90%;
+    margin:  auto;
+}
+
+ header ul{
+    display: flex;
+    gap: 20px;
+ }
+ header p{
+    font-size: 18px;
+ }
+ header ul li a{
+    background-color:  darkolivegreen;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-transform: capitalize;
+ }
+ header .container{
+    width: 90%;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* start table */
+table{
+    background-color: rgb(5, 77, 79);
+    margin: auto;
+    width:75%;
+    text-align: center;
+    border-spacing: 0;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+}
+ table thead,
+ table tfoot{
+    background-color:   darkolivegreen;
+ }
+ table thead tr td  button,
+ table tfoot tr td  button{
+    background-color: red ;
+ }
+ table tr td{
+    padding: 15px;
+    border: 1px solid white;
+    font-size: 20px;
+ }
+ table tr td p{
+    max-width: 260px;
+    margin: auto;
+    overflow-wrap: break-word;
+ }
+ table tr td button{
+    padding: 5px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background-color: darkolivegreen;
+}
+@media print{
+    body{
+        background-color: white;
+        color: black;
+    }
+    header{
+        display: none;
+    }
+    table button{
+        display: none;
+    }
+    table tr td{
+        border: 1px solid black;
+    }
+    table tr td:last-child{
+        display: none;
+    }
+}

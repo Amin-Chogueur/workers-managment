@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./money.css">
+    <title>Bousta Mohammed</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p>BOUSTA MOHAMMED</p>
+            <h1>Wholesaler</h1>
+            <ul>
+                <li><a href="./index.html">workers</a></li>
+                <li><a href="./vendeur.html">sellers</a></li>
+                <li><a href="./credit.html">debt</a></li>
+                <li><a href="./money.html">money</a></li>
+            </ul>
+        </div><!-- container -->
+    </header>
+    <h2>Money Management</h2>
+    <div class="container">
+       <table>
+        <thead>
+            <tr>
+                <td style="width: 200px;" >date</td>
+                <td>(s)</td>
+                <td>(b)</td>
+                <td style="width: 200px;"><button onclick="create()">create</button></td>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+        <tfoot id="tfoot">
+            <tr>
+                <td>total:</td>
+                <td id="totalS">15000 DA</td>
+                <td id="totalB">300000 DA</td>
+                <td>
+                    <button onclick="resetData()">reset</button>
+                </td>
+            </tr>
+        </tfoot>
+       </table>
+    </div><!-- container -->
+    <script src="./money.js"></script>
+</html>
+<!-- 
+     <div class="table">
+            <div class="thead">
+                <p>date</p>
+                <p>(s)</p>
+                <p>(b)</p>
+                <button id="create" title="create a new worker">create</button>
+            </div>
+            <div class="tbody">
+                <div class="day">
+                    <p>date</p>
+                    <p>(s)</p>
+                    <p>(b)</p>
+                    <p>
+                        <button id="create" title="create a new worker">create</button>
+                        <button id="create" title="create a new worker">create</button>
+                    </p>
+                    
+                </div>
+            </div> 
+            <div class="tfoot">
+                <p>total</p>
+                <p>(s 8888 DA)</p>
+                <p>(b 99999DA)</p>
+                <button id="create" title="create a new worker">delete</button>
+            </div>
+        </div>
+ -->
